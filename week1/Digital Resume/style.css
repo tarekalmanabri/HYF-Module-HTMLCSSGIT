@@ -1,0 +1,52 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    text-align: center;
+    margin: 0;
+    background-image: url(background2.jpg);
+    background-size: cover;
+}
+
+img {
+    width: 130px;
+    border-radius: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+i {
+    color: rgb(12, 24, 36);
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+}
+
+.experience-item {
+    border-top: 1px dashed black;
+}
+
+.experience-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+footer {
+    margin-top: 10px;
+    background-color: darkgray;
+    padding: 30px;
+}
+
+footer a {
+    color: black;
+    padding: 8px;
+}
+
+address {
+    font-size: 15px;
+}

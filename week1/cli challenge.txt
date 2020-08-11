@@ -1,0 +1,15 @@
+// to create a hidden file:
+touch .txt
+// and to display it we use: 
+ls -a
+______________________________________
+
+//To create nested multiple directories:
+mkdir -p directory1/directory2/directory3
+
+______________________________________
+To append a new message we use:
+echo "the second message" >> text.txt
+
+I found that if we use this: 
+echo "message" > text.txt it will replace the whole content in the file with this message. 
