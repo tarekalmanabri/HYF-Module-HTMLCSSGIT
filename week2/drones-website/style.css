@@ -3,22 +3,22 @@
 }
 
 body {
-    font-family: "Libre Franklin", sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 15px;
+    background-color: white;
 }
 
 header {
-    background: linear-gradient(to bottom, #d6d6da, #ffffff);
+    background: linear-gradient(to bottom, #d6d6da, white);
     padding: 20px;
 }
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
-    background: linear-gradient(to bottom, #494694, #6f6f89);
+    background: linear-gradient(to bottom, #425d44, #89ab8f);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -34,7 +34,11 @@ h2 {
 }
 
 h3 {
-    padding-left: 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    color: white;
+    background-color: #1b7759;
+    padding: 10px 0 10px 10px;
 }
 
 ul {
@@ -43,6 +47,10 @@ ul {
 
 li {
     list-style: none;
+}
+
+li:nth-child(2) p  {
+    font-family: 'Rakkas', cursive;
 }
 
 img {
@@ -144,6 +152,7 @@ section:after {
     #grid-flex .grid-item {
         flex-basis: 20%;
     }
+
     #grid-flex .grid-item:first-child {
         flex-basis: 45%;
     }
