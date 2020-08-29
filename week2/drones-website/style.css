@@ -49,7 +49,7 @@ li {
     list-style: none;
 }
 
-li:nth-child(2) p  {
+li:nth-child(2) p {
     font-family: 'Rakkas', cursive;
 }
 
@@ -121,7 +121,7 @@ section:after {
 
 @media (min-width: 600px) {
     #grid-floats .grid-item {
-        height: 330px;
+        height: 500px;
         width: calc(33.333333% - 30px);
     }
     #grid-flex .grid-item {
@@ -130,6 +130,9 @@ section:after {
 }
 
 @media (min-width: 600px) and (max-width: 1023px) {
+    #grid-floats .grid-item {
+        height: 450px;
+    }
     #grid-floats .grid-item:nth-child(-n + 2) {
         width: calc(50% - 30px);
     }
@@ -144,6 +147,7 @@ section:after {
 
 @media (min-width: 1024px) {
     #grid-floats .grid-item {
+        height: 330px;
         width: calc(25% - 30px);
     }
     #grid-floats .grid-item:first-child {
@@ -152,7 +156,6 @@ section:after {
     #grid-flex .grid-item {
         flex-basis: 20%;
     }
-
     #grid-flex .grid-item:first-child {
         flex-basis: 45%;
     }
